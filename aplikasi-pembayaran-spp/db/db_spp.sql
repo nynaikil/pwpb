@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 13, 2023 at 04:20 PM
+-- Generation Time: Feb 21, 2023 at 12:15 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -68,7 +68,8 @@ CREATE TABLE `pembayaran` (
 
 INSERT INTO `pembayaran` (`id_pembayaran`, `id_petugas`, `nisn`, `tgl_bayar`, `bulan_dibayar`, `tahun_dibayar`, `id_spp`, `jumlah_bayar`) VALUES
 (5, 1, '123', '2023-02-13', 'Februari', '2023', 1, 150000),
-(6, 2, '234', '2023-02-13', 'Februari', '2023', 4, 5000);
+(6, 2, '234', '2023-02-13', 'Februari', '2023', 4, 5000),
+(7, 1, '234', '2023-02-21', 'Februari', '2023', 4, 313);
 
 -- --------------------------------------------------------
 
@@ -186,7 +187,7 @@ ALTER TABLE `kelas`
 -- AUTO_INCREMENT for table `pembayaran`
 --
 ALTER TABLE `pembayaran`
-  MODIFY `id_pembayaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_pembayaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `petugas`
